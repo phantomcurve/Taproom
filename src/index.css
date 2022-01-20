@@ -1,0 +1,35 @@
+body {
+  margin-top: 100px;
+  background-image: url('./img/beerbubbles.png');
+  background-position-y:30vh;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.emblazon {
+  min-height: 300px;
+  width: 100vw;
+  background-image: url('./img/beertaps.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  margin: 15px;
+  border-style: solid 3px;
+}
+
+.form-group, .form-control, h2 {
+  margin: 15px;
+}
+
+#details {
+  margin: 20px;
+}
+

@@ -13,19 +13,23 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.Header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(20px + 2vmin);
+  background-image: url(./img/beertaps.jpg);
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.btn {
+  margin: 15px;
+  border-style: solid 3px;
 }
 
 @keyframes App-logo-spin {

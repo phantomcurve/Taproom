@@ -5,25 +5,27 @@ import PropTypes from "prop-types";
 function TapList(props) {
   return (
     <React.Fragment>
-      <h2>Available Kegs</h2>
-      <hr/>
-      {Object.values(props.tapList).map((keg) =>
-        <Keg
-          whenKegClicked = {props.onKegSelection} 
-          name={keg.name}
-          brand={keg.brand}
-          priceByKeg={keg.priceByKeg}
-          alcoholContent={keg.alcoholContent}
-          pintsLeft={keg.pintsLeft}
-          id={keg.id}
-          key={keg.id} />
-      )}
+      <div id="details">
+        <hr />
+        {props.tapList.map((keg) =>
+          <Keg
+            whenKegClicked = {props.onKegSelection} 
+            name={keg.name}
+            brand={keg.brand}
+            priceByKeg={keg.priceByKeg}
+            alcoholContent={keg.alcoholContent}
+            pintsLeft={keg.pintsLeft}
+            id={keg.id}
+            key={keg.id} 
+          /> 
+        )}
+      </div>
     </React.Fragment>
   );
 }
 
 TapList.propTypes = {
-  TapList: PropTypes.object,
+  TapList: PropTypes.array,
   onKegSelection: PropTypes.func
 };
 
