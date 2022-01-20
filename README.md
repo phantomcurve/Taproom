@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+/Users/phantom/Desktop/taproom/src/img/taproom.jpg
 
 ## Available Scripts
 
