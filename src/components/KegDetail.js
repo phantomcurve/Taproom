@@ -9,7 +9,12 @@ function KegDetail(props) {
       <div id="details">
         <h1><b>Keg Details</b></h1>
         <h3>Name: {keg.name}</h3>
-        <h3>Brewery: {keg.brand}</h3>
+        <h3>Brewery: {keg.brewery}</h3>
+        { keg.kegPrice > 90
+        ? <h3 style={{color: 'green'}}>Cost per Keg: ${keg.kegPrice}</h3>
+        : <h3>Cost per Keg: ${keg.kegPrice}</h3>}
+        <h3>Alcohol Content: {keg.alcoholContent}%</h3>
+
         {keg.pintsLeft === 0 ?
         <h3>That beer has been drunk!</h3>
         : <h3>Pints Remaining: {keg.pintsLeft}</h3>}

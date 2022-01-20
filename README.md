@@ -14,17 +14,26 @@
 |  2 	|   Decrease kegQuantity by 1 fraction of the total every time a pint of beer is sold. 
 |  3 	|   When the keg is empty (zero portions remaining), the app should return "That beer has been drunk!" and the app will not allow any further pint sales.
 |  4 	|   When the keg is emptied, the user should be given the option to restock the keg.	|
-|  5 	|   New keg form should have fields for beer name, brewery, and pints per keg.	|
+|  5 	|   New keg form should have fields for beer name, brewery, price, ABV (alcohol by volume) and pints per keg.	|
 |  6	|   The user should be able to see how many pints are left in a keg.	|
 
 ## Technologies used:
 
-1. React.js
-2. JavaScript
-3. Webpack
-4. JSX
-5. CSS
-6. Bootstrap
+- [VS Code](https://code.visualstudio.com/download)
+- Git & GitHub
+- ES6 JavaScript
+- JSX
+- React Framework v17.0
+- npm
+- node.js
+- `create-react-app`
+- `npm install --save-exact react-scripts@3.2.0`
+- webpack 
+- Babel
+- ESLint
+- node.js v15.8.0
+- Bootstrap v5.0.0
+
 
 ## Component Diagram
 

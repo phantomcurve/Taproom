@@ -9,7 +9,9 @@ function NewKegForm(props) {
     event.preventDefault();
     props.onNewKegCreation({
       name: event.target.name.value,
-      brand: event.target.brand.value,
+      brewery: event.target.brewery.value,
+      kegPrice: parseFloat(event.target.kegPrice.value),
+      alcoholContent: parseFloat(event.target.alcoholContent.value),
       pintsLeft: parseInt(event.target.pintsLeft.value),
       id: v4()
     });

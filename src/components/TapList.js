@@ -11,8 +11,8 @@ function TapList(props) {
           <Keg
             whenKegClicked = {props.onKegSelection} 
             name={keg.name}
-            brand={keg.brand}
-            priceByKeg={keg.priceByKeg}
+            brewery={keg.brewery}
+            kegPrice={keg.kegPrice}
             alcoholContent={keg.alcoholContent}
             pintsLeft={keg.pintsLeft}
             id={keg.id}
