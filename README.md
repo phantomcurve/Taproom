@@ -1,4 +1,68 @@
-/Users/phantom/Desktop/taproom/src/img/taproom.jpg
+# Taproom AKA Bubbles!
+
+   Simple React web application (with partial CRUD functionality) for a beer taproom to manage their kegs and beer sales.
+
+## Created By:
+
+  _Tim Roth_
+  
+## User Stories
+
+|  # 	|  Stories 	|
+|---	|---	|
+|  1 	|  A user should be able to Create, Update, and see a list of and details of kegs in the tap room. 
+|  2 	|   Decrease kegQuantity by 1 fraction of the total every time a pint of beer is sold. 
+|  3 	|   When the keg is empty (zero portions remaining), the app should return "That beer has been drunk!" and the app will not allow any further pint sales.
+|  4 	|   When the keg is emptied, the user should be given the option to restock the keg.	|
+|  5 	|   New keg form should have fields for beer name, brewery, and pints per keg.	|
+|  6	|   The user should be able to see how many pints are left in a keg.	|
+
+## Technologies used:
+
+1. React.js
+2. JavaScript
+3. Webpack
+4. JSX
+5. CSS
+6. Bootstrap
+
+## Component Diagram
+
+![component diagram](taproom.png) 
+
+
+## Setup/Installation Requirements
+
+1. Download or clone the [https://github.com/phantomcurve/Taproom.git](https://github.com/phantomcurve/Taproom.git) to your local machine.
+
+2. Open the repository in your preferred code editor
+
+3. Make sure Node is enabled and installed on your machine, as you will otherwise be unable to run the standard NPM scripts in React 
+
+4. Open either your root terminal or the terminal in your code editor and run `NPM Install`
+
+5. Once the install has completed, run `NPM Start` to run the program–this should prompt your default browser to open a tab for http://localhost:3000/.
+
+
+## Known bugs
+
+* Some buttons don't appear with borders because my styling with React needs more practice!
+
+## License information with a copyright and date:
+
+MIT License
+
+Copyright (c) 2021 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Contact information:
+   
+* timdroth@gmail.com
 
 ## Available Scripts
 
